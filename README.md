@@ -1,6 +1,7 @@
 ## A simpler way to use font icons with NativeScript + Vue.js
 
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![LICENSE](https://img.shields.io/github/license/emiliogrv/nativescript-vue-fonticon.svg)](https://github.com/emiliogrv/nativescript-vue-fonticon/blob/master/LICENSE.md)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/emiliogrv/nativescript-vue-fonticon/issues)
 
 ### The Problem
 
@@ -28,10 +29,7 @@ This works but keeping up with unicodes is not fun.
 With this plugin, you can instead reference the `fonticon` by the specific classname:
 
 ```html
-<FontIcon
-  name="fa-play"
-  @tap="tapAction"
-/>
+<FontIcon name="fa-play" @tap="tapAction" />
 ```
 
 ## Prerequisites / Requirements
@@ -117,4 +115,4 @@ Vue.use(FontIcon, {
 
 # License
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://github.com/emiliogrv/nativescript-vue-fonticon/blob/master/LICENSE.md)
