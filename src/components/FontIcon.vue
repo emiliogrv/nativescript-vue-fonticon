@@ -4,7 +4,7 @@
     :color="color"
     :fontSize="size"
     :text="name | fonticon"
-    :width="size"
+    width="${size}"
     textAlignment="center"
     @tap="$emit('tap')"
   />
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'FontIcon',
+  name: "FontIcon",
 
   props: {
     color: {
@@ -32,8 +32,8 @@ export default {
 
     type: {
       type: String,
-      default: 'fa'
+      default: "fa"
     }
   }
-}
+};
 </script>
